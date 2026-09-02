@@ -2,7 +2,7 @@ services:
   web:
     image: nginx:1.27
     ports:
-      - "8084:80"
+      - "9090:80"
 
 db:
   image: mariadb:11
